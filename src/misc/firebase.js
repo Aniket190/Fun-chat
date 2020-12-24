@@ -5,13 +5,13 @@ import 'firebase/database';
 import 'firebase/storage';
 
 const config = {
-  apiKey: 'AIzaSyAKGRssxY4OW9um6RlSbbQ1Fh_lgdWfoPs',
-  authDomain: 'chat-web-app-4ee4c.firebaseapp.com',
-  databaseURL: 'https://chat-web-app-4ee4c.firebaseio.com',
-  projectId: 'chat-web-app-4ee4c',
-  storageBucket: 'chat-web-app-4ee4c.appspot.com',
-  messagingSenderId: '167319830934',
-  appId: '1:167319830934:web:419e220f9fdcd15ea25db7',
+  apiKey: "AIzaSyCEA828CT0m_XKuSKiK8Sp_V2WfAiXmi7A",
+  authDomain: "fun-chat-4a1d7.firebaseapp.com",
+  databaseURL: "https://fun-chat-4a1d7-default-rtdb.firebaseio.com",
+  projectId: "fun-chat-4a1d7",
+  storageBucket: "fun-chat-4a1d7.appspot.com",
+  messagingSenderId: "328693716107",
+  appId: "1:328693716107:web:c06638b0f5972749a4308e",
 };
 
 const app = firebase.initializeApp(config);
