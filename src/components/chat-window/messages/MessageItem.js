@@ -3,6 +3,7 @@ import React from 'react';
 import TimeAgo from 'timeago-react';
 import ProfileAvatar from '../../ProfileAvatar';
 import ProfileInfoBtnModal from './ProfileInfoBtnModal';
+import PresenceDot from '../../PresenceDot'
 
 const MessageItem = ({ message }) => {
   const { author, createdAt, text } = message;
@@ -16,7 +17,7 @@ const MessageItem = ({ message }) => {
           className="ml-1"
           size="xs"
         />
-
+         <PresenceDot uid={author.uid} />
         <ProfileInfoBtnModal
           profile={author}
           appearance="link"
