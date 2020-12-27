@@ -30,7 +30,7 @@ const Top = () => {
         </h4>
 
         <ButtonToolbar className="ws-nowrap">
-          <EditRoomBtnDrawer />
+          
           {isAdmin && <EditRoomBtnDrawer />}
         </ButtonToolbar>
       </div>
